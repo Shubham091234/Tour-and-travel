@@ -271,7 +271,7 @@ header .search-bar-container label:hover{
   z-index: -1;
   height: 100%;
   width:100%;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 .home .controls{
@@ -692,7 +692,8 @@ header .search-bar-container label:hover{
 
   .home .controls{
 
-    top:15rem;
+    top:11rem;
+    padding: 1rem;
   }
 
   .login-form-container{
@@ -708,7 +709,7 @@ header .search-bar-container label:hover{
 }
 
   .home .video-container video {
-      object-fit: cover;
+      object-fit:fill ;
   }
 
 }
