@@ -292,6 +292,8 @@ header .search-bar-container label:hover{
   margin:0 .5rem;
 }
 
+
+
 .home .controls .vid-btn.active{
   background:var(--orange);
 }
@@ -693,7 +695,17 @@ header .search-bar-container label:hover{
   .home .controls{
 
     top:11rem;
-    padding: .5rem;
+padding: .7rem;
+  }
+
+  .home .controls .vid-btn{
+    margin: 0.05rem;
+    height:2rem;
+    width:2rem;
+    display: inline-block;
+    border-radius: 50%;
+    background:#fff;
+    cursor: pointer;
   }
 
   .login-form-container{
@@ -712,10 +724,6 @@ header .search-bar-container label:hover{
       object-fit:fill ;
   }
 
-
-.home .controls .vid-btn{
-  margin: 0.1rem;
-}
 
 
 }
