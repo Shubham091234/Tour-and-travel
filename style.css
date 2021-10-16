@@ -692,7 +692,7 @@ header .search-bar-container label:hover{
 
   .home .controls{
 
-    top:1.5rem;
+    top:15rem;
   }
 
   .login-form-container{
@@ -702,11 +702,13 @@ header .search-bar-container label:hover{
   }
 
   .login-form-container #form-close {
-    
-      top: -1rem;
-      right: -1rem;
-      font-size: 4rem;
+    top: 30rem;
+    right: 2rem;
+    font-size: 5rem;
+}
 
+  .home .video-container video {
+      object-fit: fill;
   }
 
 }
