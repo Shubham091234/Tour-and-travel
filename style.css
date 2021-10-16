@@ -702,13 +702,13 @@ header .search-bar-container label:hover{
   }
 
   .login-form-container #form-close {
-    top: 30rem;
+    top: 20rem;
     right: 2rem;
     font-size: 5rem;
 }
 
   .home .video-container video {
-      object-fit: fill;
+      object-fit: unset;
   }
 
 }
